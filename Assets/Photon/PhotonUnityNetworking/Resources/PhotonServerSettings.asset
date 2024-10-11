@@ -41,6 +41,9 @@ MonoBehaviour:
   - LoadSceneRPC
   - RespawnSpaceship
   - LoadMapRPC
+  - SendName
+  - SendNameNext
+  - updateKlas
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

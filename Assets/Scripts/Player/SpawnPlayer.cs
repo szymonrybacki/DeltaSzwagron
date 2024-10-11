@@ -5,13 +5,16 @@ using Photon.Pun;
 
 public class SpawnPlayer : MonoBehaviour
 {
-    public GameObject player;
-
+    public GameObject[] player;
     public Vector2 position;
 
     void Start()
     {
-        GameObject playerInstance = PhotonNetwork.Instantiate(player.name, position, Quaternion.identity);
+        if(PlayerClass.klasa == 0)
+        {
+            PlayerClass.klasa = Random.Range(1,5);
+        }
+        GameObject playerInstance = PhotonNetwork.Instantiate(player[PlayerClass.klasa-1].name, position, Quaternion.identity);
         playerInstance.GetComponent<PhotonView>().TransferOwnership(PhotonNetwork.LocalPlayer);
     }
 }
