@@ -12,3 +12,20 @@ Po pokananiu grupy przeciwników gracze wybierają jeden spośród trzech losowy
 
 ## Cel gry
 Celem gry jest pokonanie szóstego bossa - `Króla koni`.
+
+## Dokumentacja
+
+# Manager
+-BattleManager.cs - Nic jeszcze nie robi
+
+# MultiPlayer
+-ConnectToServer.cs - Łączy gracza z serwerem przy użyciu Photon
+-LobbyManager.cs - Odpowiada ze tworzenie nowych lobby oraz wyświeltanie ich
+-Multi.cs - Przechowuje ID gracza względem lobby
+-RoomItem.cs - Odpowiada za dołączania do lobby oraz wyświetlaniu nazw lobby
+-StartGame.cs - Odpowiada za wyświetlanie nazw innych graczy, wybrów klas i przeniesieniu graczy z panelu lobby do panelu gry
+
+# Player
+-PlayerClass.cs - Przechowuje informacje o klasie gracza
+-PlayerMove.cs - Odpowiada za podstawowe poruszanie się gracza
+-SpawnPlayer.cs - Tworzy klasa w zależności od wybranej klasy na początku rozgrywki
