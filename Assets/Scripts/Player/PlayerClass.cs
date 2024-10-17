@@ -6,3 +6,4 @@ public class PlayerClass : MonoBehaviour
 {
     public static int klasa;
 }
+//

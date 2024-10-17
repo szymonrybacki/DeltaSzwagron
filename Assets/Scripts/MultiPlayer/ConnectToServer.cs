@@ -9,7 +9,7 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
 {
     public InputField usernameInput;
     public Text buttonText;
-
+//
     public void OnClickConnect()
     {
         if(usernameInput.text.Length >= 1)

@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class BattleManager : MonoBehaviour
 {
-    public static int classId;
+    //public static int classId;
 }

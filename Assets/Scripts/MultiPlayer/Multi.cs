@@ -7,6 +7,6 @@ using Photon.Realtime;
 public class Multi : MonoBehaviour
 {
     public static int playerID;
-
+//
     
 }
