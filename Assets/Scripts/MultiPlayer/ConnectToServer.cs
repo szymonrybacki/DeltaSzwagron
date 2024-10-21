@@ -25,4 +25,6 @@ public class ConnectToServer : MonoBehaviourPunCallbacks
         SceneManager.LoadScene("Lobby");
     }
 
+   
+
 }
